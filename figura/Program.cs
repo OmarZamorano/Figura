@@ -65,12 +65,12 @@ internal class Program
     {
         Rectangulo r1=new Rectangulo(2,3,20.4,12.7,"Negro");
         r1.Dibuja();
-        r1.Area();
+        Console.WriteLine($"{"El area del rectangulo es "}{r1.Area()}");
         Circulo c1=new Circulo(5,8,0,0,"Rojo",12,24);
         c1.Dibuja();
-        c1.Area();
+        Console.WriteLine($"{"El area del circulo es "}{c1.Area()}");
         Triangulo t1=new Triangulo(0,7,0,0,"Azul",7.89,5.47);
         t1.Dibuja();
-        t1.Area();
+        Console.WriteLine($"{"El area del triangulo es "}{t1.Area()}");
     }
 }
